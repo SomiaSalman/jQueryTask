@@ -1,0 +1,146 @@
+/* :root{
+    scroll-behavior: auto;
+} */
+
+ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+        color: #fff !important;
+        font-size: 35px;
+
+}
+#home li a:hover,
+.closebtn:hover{
+    
+    color:rgba(214, 46, 51 , 0.6) !important;
+
+}
+.closebtn{
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    
+}
+.icon{
+    position: absolute;
+    /* margin-right: -100%; */
+    left: 100%;
+    top: 50%;
+    cursor: pointer;
+
+}
+#home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#home h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+#home span{
+    font-size: 60px;
+}
+#home .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+background-color:#111 ;
+height: 100%;
+}
+#home .sidebar .side-box{
+    padding: 30px;
+    display: none;
+
+
+}
+/* singers */
+.singers h2{
+    cursor: pointer;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.singers p{
+    background-color: #ccc;
+    color: #212529;
+}
+/* .singers .second-p{
+    /* display: none; */
+
+/* } 
+*/ 
+
+
+
+/* counters */
+#details{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+
+}
+#details .col-md-3 h2{
+border: 1px solid #fff;
+}
+
+
+/* contact */
+#contact p{
+color: #777;
+}
+#contact button{
+    /* background-color:rgba(214, 46, 51 , 0.6);  */
+    color: #fff;
+}
+.social i{
+    color: #777 !important; 
+
+border: 1px solid #777 !important;
+padding: 10px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.social i:hover{
+    background-color:#D62E33;
+    border: none !important;
+    color: #fff !important;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+}
+
+#countdown {
+    background-color: tomato;
+    color: #3e058e;
+    width: 80%;
+    padding: 50px;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+  }
